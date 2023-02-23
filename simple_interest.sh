@@ -1,5 +1,18 @@
 #!/bin/bash
-#This script calculates the simle interest given principal,Annual rate of interest,and time in years.
+   # This script calculates simple interest given principal,
+   # annual rate of interest and time period in years.
+
+   # Do not use this in production. Sample purpose only.
+
+   # Author: Upkar Lidder (IBM)
+   # Additional Authors:
+   # <JamesBurns1>
+   # p, principal amount
+   # t, time period in years
+   # r, annual rate of interest
+
+   # Output:
+   # simple interest = p*t*r
 echo "Enter the principal amount:"
 read p
 echo "Enter rate of interest per year:"
